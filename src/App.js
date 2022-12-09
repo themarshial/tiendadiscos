@@ -1,5 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Container from './Components/Container';
+import Home from './Components/Home';
+import Form from './Components/Form';
+import Nopage from './Components/Nopage';
 
 function App() {
   return (
