@@ -1,8 +1,13 @@
 import React from 'react'
+import Carrusel from '../shared/Carrusel'
+import Jumbotron from '../shared/Jumbotron'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className='text-center'>
+      <Carrusel/>
+      <Jumbotron/>
+    </div>
   )
 }
 

@@ -2,12 +2,12 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <nav className='bg-gray-500'>
-      <ul className='flex justify-around w-full text-gray-100 bg-gray-700'>
-        <li><a className='text-4xl font-bold' href='#'>inicio</a></li>
-        <li><a className='text-4xl font-bold' href='#'>inicio</a></li>
-        <li><a className='text-4xl font-bold' href='#'>inicio</a></li>
-        <li><a className='text-4xl font-bold' href='#'>inicio</a></li>
+    <nav >
+      <ul className='flex justify-around w-full py-2 text-gray-100 bg-gray-900'>
+        <li><a className='text-xl font-bold' href='/'>Tienda de discos Marshial</a></li>
+        <li><a className='text-xl font-bold' href='contacto'>Contacto</a></li>
+        <li><a className='text-xl font-bold' href='direccion'>Direccion</a></li>
+        
       </ul>
     </nav>
   )

@@ -7,13 +7,13 @@ import Header from './Header';
 
 const Container = () => {
   return (
-    <>
+    <div className=' flex flex-col h-screen justify-between items-stretch  bg-red-500'>
       <Header/>
       
       <Outlet />
       <Footer />
 
-    </>
+    </div>
   )
 }
 
