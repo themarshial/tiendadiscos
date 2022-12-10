@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Container from './Components/Container';
-import Home from './Components/Home';
-import Form from './Components/Form';
-import Nopage from './Components/Nopage';
+import Container from './Components/shared/Container';
+import Home from './Components/pages/Home';
+import Formu from './Components/shared/Formu';
+import Nopage from './Components/pages/Nopage';
+import Address from './Components/pages/Address';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Container/>}>
           <Route index element={<Home/>}></Route>
-          <Route path='contact' element={<Form/>}></Route>
+          <Route path='contacto' element={<Formu/>}></Route>
+          <Route path='direccion' element={<Address/>}></Route>
           <Route path='*' element={<Nopage/>}></Route>
         </Route>
         
