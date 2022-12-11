@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/tiendadiscos/static/css/main.34ea687b.css",
-    "main.js": "/tiendadiscos/static/js/main.f4312bcc.js",
+    "main.css": "/tiendadiscos/static/css/main.f099ce80.css",
+    "main.js": "/tiendadiscos/static/js/main.f72b4896.js",
     "static/js/787.a888b582.chunk.js": "/tiendadiscos/static/js/787.a888b582.chunk.js",
     "static/media/fondo2.png": "/tiendadiscos/static/media/fondo2.566061c7be7137cf1aed.png",
     "static/media/bloque.png": "/tiendadiscos/static/media/bloque.e5db1f9facf98402352e.png",
     "static/media/fondo.jpg": "/tiendadiscos/static/media/fondo.bc9f78ecd3e63c39b085.jpg",
-    "static/media/logo.svg": "/tiendadiscos/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/tiendadiscos/index.html",
-    "main.34ea687b.css.map": "/tiendadiscos/static/css/main.34ea687b.css.map",
-    "main.f4312bcc.js.map": "/tiendadiscos/static/js/main.f4312bcc.js.map",
+    "main.f099ce80.css.map": "/tiendadiscos/static/css/main.f099ce80.css.map",
+    "main.f72b4896.js.map": "/tiendadiscos/static/js/main.f72b4896.js.map",
     "787.a888b582.chunk.js.map": "/tiendadiscos/static/js/787.a888b582.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34ea687b.css",
-    "static/js/main.f4312bcc.js"
+    "static/css/main.f099ce80.css",
+    "static/js/main.f72b4896.js"
   ]
 }
